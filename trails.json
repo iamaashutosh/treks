@@ -1,0 +1,242 @@
+[
+    {
+      "name": "Annapurna Base Camp",
+      "region": "Annapurna",
+      "description": "A classic trek through diverse landscapes to the Annapurna Sanctuary, offering stunning panoramic views of Annapurna I, Machhapuchhre, and other peaks.",
+      "distance_m": 115000,
+      "duration_days": 7,
+      "elevation": 4130,
+      "difficulty": "Moderate",
+      "start_point": {
+        "lat": 28.3275,
+        "lng": 83.8294
+      },
+      "end_point": {
+        "lat": 28.3976,
+        "lng": 83.8741
+      },
+      "images": [
+        "View of Annapurna I from Base Camp",
+        "Machhapuchhre (Fishtail) Peak",
+        "Rhododendron forests in bloom",
+        "Traditional Gurung villages",
+        "Hot springs at Jhinu Danda"
+      ]
+    },
+    {
+      "name": "Everest Base Camp",
+      "region": "Everest (Khumbu)",
+      "description": "An iconic journey to the base of the world's highest mountain, offering breathtaking views of Everest, Lhotse, Nuptse, and Ama Dablam, and cultural immersion in Sherpa villages.",
+      "distance_m": 130000,
+      "duration_days": 12,
+      "elevation": 5364,
+      "difficulty": "Difficult",
+      "start_point": {
+        "lat": 27.6833,
+        "lng": 86.7297
+      },
+      "end_point": {
+        "lat": 27.9922,
+        "lng": 86.9056
+      },
+      "images": [
+        "Prayer flags at Everest Base Camp",
+        "View from Kala Patthar",
+        "Tengboche Monastery",
+        "Suspension bridges over Dudh Koshi river",
+        "Lukla airport runway"
+      ]
+    },
+    {
+      "name": "Ghorepani Poon Hill",
+      "region": "Annapurna",
+      "description": "A shorter and relatively easy trek renowned for its spectacular sunrise views over the Annapurna and Dhaulagiri mountain ranges from Poon Hill.",
+      "distance_m": 50000,
+      "duration_days": 4,
+      "elevation": 3210,
+      "difficulty": "Easy",
+      "start_point": {
+        "lat": 28.318,
+        "lng": 83.743
+      },
+      "end_point": {
+        "lat": 28.342,
+        "lng": 83.692
+      },
+      "images": [
+        "Sunrise over Poon Hill",
+        "Terraced fields of Ghandruk village",
+        "Rhododendron forests",
+        "Traditional Magar and Gurung houses",
+        "Dhaulagiri and Annapurna mountain views"
+      ]
+    },
+    {
+      "name": "Langtang Valley",
+      "region": "Langtang",
+      "description": "A trek through a beautiful valley close to Kathmandu, offering diverse landscapes, Tamang culture, and impressive views of Langtang Lirung and Ganesh Himal.",
+      "distance_m": 77000,
+      "duration_days": 8,
+      "elevation": 4983,
+      "difficulty": "Moderate",
+      "start_point": {
+        "lat": 28.169,
+        "lng": 85.344
+      },
+      "end_point": {
+        "lat": 28.169,
+        "lng": 85.344
+      },
+      "images": [
+        "Langtang Lirung peak",
+        "Kyanjin Gompa monastery",
+        "Yak pastures",
+        "Tamang villages and their culture",
+        "Views from Tserko Ri"
+      ]
+    },
+    {
+      "name": "Manaslu Circuit",
+      "region": "Manaslu",
+      "description": "A challenging trek circling the eighth highest mountain in the world, Manaslu, offering raw Himalayan beauty, diverse ecosystems, and rich Tibetan-Buddhist culture.",
+      "distance_m": 145000,
+      "duration_days": 14,
+      "elevation": 5106,
+      "difficulty": "Difficult",
+      "start_point": {
+        "lat": 28.461,
+        "lng": 84.771
+      },
+      "end_point": {
+        "lat": 28.599,
+        "lng": 84.453
+      },
+      "images": [
+        "Larkya La Pass",
+        "Manaslu peak views",
+        "Traditional Buddhist chortens and monasteries",
+        "Buri Gandaki gorge",
+        "Remote Gurung villages"
+      ]
+    },
+    {
+      "name": "Mardi Himal",
+      "region": "Annapurna",
+      "description": "A relatively new and less crowded trek offering close-up views of the Annapurna range, Machhapuchhre, and Mardi Himal itself, with diverse flora and fauna.",
+      "distance_m": 50000,
+      "duration_days": 5,
+      "elevation": 4500,
+      "difficulty": "Moderate",
+      "start_point": {
+        "lat": 28.324,
+        "lng": 83.824
+      },
+      "end_point": {
+        "lat": 28.375,
+        "lng": 83.879
+      },
+      "images": [
+        "Mardi Himal Base Camp",
+        "View of Machhapuchhre",
+        "Forest Camp teahouses",
+        "High Camp views",
+        "Rhododendron forests"
+      ]
+    },
+    {
+      "name": "Upper Mustang",
+      "region": "Mustang",
+      "description": "A restricted area trek to the ancient forbidden kingdom of Lo, showcasing a unique Tibetan culture, arid landscapes, ancient monasteries, and cave dwellings.",
+      "distance_m": 120000,
+      "duration_days": 14,
+      "elevation": 3850,
+      "difficulty": "Moderate",
+      "start_point": {
+        "lat": 28.769,
+        "lng": 83.713
+      },
+      "end_point": {
+        "lat": 28.769,
+        "lng": 83.713
+      },
+      "images": [
+        "Walled city of Lo Manthang",
+        "Ancient monasteries and chortens",
+        "Unique rock formations and canyons",
+        "Kali Gandaki River valley",
+        "Sky caves"
+      ]
+    },
+    {
+      "name": "Gokyo Lakes",
+      "region": "Everest (Khumbu)",
+      "description": "An alternative Everest region trek focusing on the stunning turquoise glacial lakes of Gokyo, with panoramic views of four 8000m peaks from Gokyo Ri.",
+      "distance_m": 90000,
+      "duration_days": 11,
+      "elevation": 5357,
+      "difficulty": "Difficult",
+      "start_point": {
+        "lat": 27.6833,
+        "lng": 86.7297
+      },
+      "end_point": {
+        "lat": 27.6833,
+        "lng": 86.7297
+      },
+      "images": [
+        "Turquoise Gokyo Lakes",
+        "View from Gokyo Ri (Everest, Lhotse, Makalu, Cho Oyu)",
+        "Ngozumpa Glacier",
+        "Sherpa villages",
+        "Yak herds"
+      ]
+    },
+    {
+      "name": "Helambu",
+      "region": "Langtang",
+      "description": "A relatively low-altitude and culturally rich trek close to Kathmandu, passing through charming Sherpa and Tamang villages and offering views of the Langtang Himal.",
+      "distance_m": 70000,
+      "duration_days": 7,
+      "elevation": 3650,
+      "difficulty": "Easy",
+      "start_point": {
+        "lat": 27.765,
+        "lng": 85.395
+      },
+      "end_point": {
+        "lat": 27.954,
+        "lng": 85.670
+      },
+      "images": [
+        "Traditional Hyolmo villages",
+        "Buddhist monasteries",
+        "Green hills and rhododendron forests",
+        "Views of Langtang Lirung",
+        "Terraced farmlands"
+      ]
+    },
+    {
+      "name": "Kanchenjunga Base Camp",
+      "region": "Kanchenjunga",
+      "description": "A remote and challenging expedition to the base camps of the world's third highest mountain, offering pristine wilderness, diverse cultures, and stunning glacial landscapes.",
+      "distance_m": 230000,
+      "duration_days": 19,
+      "elevation": 5143,
+      "difficulty": "Difficult",
+      "start_point": {
+        "lat": 27.359,
+        "lng": 87.755
+      },
+      "end_point": {
+        "lat": 27.359,
+        "lng": 87.755
+      },
+      "images": [
+        "Kanchenjunga North Base Camp (Pang Pema)",
+        "Views of Mt. Jannu and other peaks",
+        "Lush rhododendron forests",
+        "Remote villages and local culture",
+        "Glacial moraines and icefalls"
+      ]
+    }
+  ]
