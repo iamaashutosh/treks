@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: trekking-api
+    env: python
+    plan: free
+    branch: master
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn trek.wsgi:application
+    autoDeploy: true
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: trek.settings
+      - key: SECRET_KEY
+        value: django-insecure-o_@4e*1k#4l^5i-w#ybapk7#ex@+%&76tkqj@(wdt57%2e2xp_
+      - key: DEBUG
+        value: "False"
+      - key: ALLOWED_HOSTS
+        value: .onrender.com
