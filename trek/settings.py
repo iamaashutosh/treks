@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o_@4e*1k#4l^5i-w#ybapk7#ex@+%&76tkqj@(wdt57%2e2xp_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['trekking-api.onrender.com']
+ALLOWED_HOSTS = ['trekking-api.onrender.com','*']
 
 
 # Application definition

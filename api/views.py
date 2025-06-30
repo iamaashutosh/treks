@@ -22,6 +22,11 @@ class TrailImageListCreateView(generics.ListCreateAPIView):
     queryset = TrailImage.objects.all()
     serializer_class = TrailImageSerializer
 
+class TrailRetreiveView(generics.RetrieveUpdateAPIView):
+    queryset = Trail.objects.all()
+    serializer_class = TrailSerializer
+    lookup_field = 'pk'
+
 class TrailBulkUploadView(APIView):
     def post(self, request):
         json_file = request.FILES.get('file')
@@ -53,35 +58,7 @@ class TrailBulkUploadView(APIView):
 
         return Response({'message': 'Trails uploaded successfully'}, status=status.HTTP_201_CREATED)
 
-# class TrailImageBulkUploadView(APIView):
-#     def post(self, request):
-#         csv_file = request.FILES.get('csv')
-#         if not csv_file:
-#             return Response({'error': 'CSV file is required.'}, status=status.HTTP_400_BAD_REQUEST)
 
-#         try:
-#             decoded_file = csv_file.read().decode('utf-8')
-#             io_string = io.StringIO(decoded_file)
-#             reader = csv.DictReader(io_string)
-#         except Exception:
-#             return Response({'error': 'Invalid CSV file.'}, status=status.HTTP_400_BAD_REQUEST)
-
-#         for row in reader:
-#             trail_id = row.get('trail_id')
-#             image_filename = row.get('image_file')
-#             image_file = request.FILES.get(image_filename)
-
-#             if not (trail_id and image_file):
-#                 continue
-
-#             try:
-#                 trail = Trail.objects.get(id=trail_id)
-#             except Trail.DoesNotExist:
-#                 continue
-
-#             TrailImage.objects.create(trail=trail, image=image_file)
-
-#         return Response({'message': 'Images uploaded successfully.'}, status=status.HTTP_201_CREATED)
 @api_view(['POST'])
 def bulk_upload_trail_images_zip(request):
     zip_file = request.FILES.get('file')
